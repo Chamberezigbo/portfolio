@@ -1,0 +1,87 @@
+body{
+  padding: 0px;
+  margin: 0px;
+}
+section.landing{
+  background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url(../img/picture1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height:80%;
+  margin-top:-5px;
+  padding-top: 90px;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:transparent;
+  width:100%;
+}
+
+li {
+  float: left;
+  border-right:1px solid #bbb;
+}
+
+li:last-child {
+  border-right: none;
+}
+
+li > a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #290001;
+  padding: 15px 18px;
+}
+
+.active {
+  background-color: #ad9d9d;
+}
+.landing{
+  width: 100%;
+  margin-top: 25px;
+}
+.writing{
+  color: #393b44;
+}
+.writing > h1{
+  font-size: 2.2em;
+  color: #393b44;
+}
+.btn{
+  background-color:#290001;
+  color: #fff;
+  padding:10px;
+  width: 130px;
+  border-radius: 15px;
+  border: none;
+
+}
+
+.writing button{
+  margin: 10px;
+}
+.btn1{
+  background-color:transparent;
+  color: #393b44;
+  padding:10px;
+  width: 130px;
+  border-radius: 15px;
+  border: 2px solid #ad9d9d;
+}
+.profile-img img{
+  border-radius: 75px;
+  border: none;
+}
+div > nav{
+  background-color: #393b44;
+  position: fixed;
+  width: 100%;
+}

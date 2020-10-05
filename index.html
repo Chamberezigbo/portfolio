@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="rest/css/responsive.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="rest/css/global.css">
+  <link rel="stylesheet" href="rest/css/local.css">
+  <link rel="stylesheet" href="rest/css/skillbar.css">
+  <title>Document</title>
+</head>
+<body>
+  <div>
+    <div>
+      <nav>
+        <ul>
+          <li><a class="active" href="#home">Home</a></li>
+          <li><a href="#news">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li style="float:right"><a href="#about">Vidbot</a></li>
+        </ul>
+      </nav>
+    </div>
+  </div>  
+  <section class="landing ">  
+    <div>
+      <div class="text-center profile-img">
+        <img src="rest/img/om.jpg" height="170px" width="200px">
+      </div>
+      <div class="text-center">
+        <div class="writing">
+          <h1>Chamberlain</h1>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolor,</p>
+          <button class="btn">click</button> <button class="btn1">click</button>
+        </div>  
+      </div>
+      <div></div>
+    </div>
+  </section>
+
+  <div class="skill-nab">
+    <h2>My Skulls </h2>
+    <p>HTML</p>
+    <div class="container">
+      <div class="skills html">90%</div>
+    </div>
+
+    <p>CSS</p>
+    <div class="container">
+      <div class="skills css">80%</div>
+    </div>
+
+    <p>JavaScript</p>
+    <div class="container">
+      <div class="skills js">65%</div>
+    </div>
+
+    <p>PHP</p>
+    <div class="container">
+      <div class="skills php">60%</div>
+    </div>
+  </div>  
+  <!-- MAIN (Center website) -->
+<div class="main">
+
+<h1>MYLOGO.COM</h1>
+<hr>
+
+<h2>PORTFOLIO</h2>
+<p>Resize the browser window to see the responsive effect.</p>
+
+  <!-- Portfolio Gallery Grid -->
+  <div class="row">
+    <div class="column">
+      <div class="content">
+        <img src="rest/img/book1.jpg" alt="Mountains" style="width:100%">
+        <h3>My book</h3>
+        <a href="https://chamberezigbo.github.io/book-search-Api/"><p>Book Search With An Api</p> </a>
+      </div>
+    </div>
+    <div class="column">
+      <div class="content">
+        <img src="rest/img/marth -game.jpg" alt="Lights" style="width:95%">
+        <h3>My Game</h3>
+        <a href="https://chamberezigbo.github.io/Game/"><p>A game build with just JavaScript</p></a>
+      </div>
+    </div>
+    <div class="column">
+      <div class="content">
+        <img src="rest/img/picture1.jpg" alt="Nature" style="width:100%">
+        <h3>My Work</h3>
+        <p>Lorem ipsum..</p>
+      </div>
+    </div>
+    <div class="column">
+      <div class="content">
+        <img src="rest/img/xps.jpg" alt="Mountains" style="width:100%">
+        <h3>My Work</h3>
+        <p>Lorem ipsum..</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="content">
+    <img src="rest/img/child.jpg" alt="Bear" style="width:100%">
+    <h3>Some Other Work</h3>
+    <p>Lorem ipsum..</p>
+  </div>
+
+  <!-- END MAIN -->
+  </div>
+  <div class="card">
+    <img src="rest/img/om.jpg" alt="John" style="width:22%">
+    <h1>John Doe</h1>
+    <p class="title">CEO & Founder, Example</p>
+    <p>Harvard University</p>
+    <a href="#"><i class="fa fa-dribbble"></i></a>
+    <a href="#"><i class="fa fa-twitter"></i></a>
+    <a href="#"><i class="fa fa-linkedin"></i></a>
+    <a href="#"><i class="fa fa-facebook"></i></a>
+    <p><button class="open-button" onclick="openForm()">Contact</button></p>
+  </div>
+
+  <div class="form-popup" id="myForm">
+    <form action="/action_page.php" class="form-container">
+      <h2>Your Contact</h2>
+
+      <label for="email"><b>Email</b></label>
+      <input type="text" placeholder="Enter Email" name="email" required>
+
+      <label for="psw"><b>Massage</b></label>
+      <input type="text" placeholder="Enter your massage we will get back to your within 2 hours" name="psw" required>
+
+      <button type="submit" class="btn">Send</button>
+      <button type="submit" class="btn cancel" onclick="closeForm()">Close</button>
+    </form>
+  </div>
+
+  <script src="rest/js/portfilo.js"></script>
+</body>
+</html>
